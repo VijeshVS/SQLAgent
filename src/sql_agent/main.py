@@ -12,7 +12,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'user_query': "Just give me no of candidates who have cgpa greater than 8.8 in the candidates table.",
+        'user_query': "Get me the list of candidates who has linkedin profile link and github profile link present in the database.",
     }
 
     try:
