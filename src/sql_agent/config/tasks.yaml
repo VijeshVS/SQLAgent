@@ -1,0 +1,9 @@
+sql_query_task:
+  description: >
+    Take the user's request, determine the appropriate Supabase MCP tool call,
+    build the correct arguments according to the tool schema, execute it,
+    and return the structured JSON response.
+    User request: {user_query}
+  expected_output: >
+    JSON response returned from the executed Supabase MCP tool.
+  agent: sql_expert
